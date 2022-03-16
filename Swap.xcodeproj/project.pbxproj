@@ -17,6 +17,7 @@
 		9327919527E0B06700093E8E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919427E0B06700093E8E /* SignUpViewController.swift */; };
 		9327919B27E21F6D00093E8E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919A27E21F6D00093E8E /* HomeTableViewController.swift */; };
 		9327919D27E2521200093E8E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919C27E2521200093E8E /* ItemTableViewCell.swift */; };
+		9327919F27E27A3600093E8E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919E27E27A3600093E8E /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9327919427E0B06700093E8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9327919A27E21F6D00093E8E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		9327919C27E2521200093E8E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		9327919E27E27A3600093E8E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +68,50 @@
 			children = (
 				9327917E27E0AB4A00093E8E /* AppDelegate.swift */,
 				9327918027E0AB4A00093E8E /* SceneDelegate.swift */,
+				932791A327E27EA600093E8E /* Storyboard */,
+				932791A127E27E8E00093E8E /* Model */,
+				932791A227E27E9500093E8E /* View */,
+				932791A027E27E7D00093E8E /* Controller */,
+				9327918727E0AB4E00093E8E /* Assets.xcassets */,
+				9327918C27E0AB4E00093E8E /* Info.plist */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		932791A027E27E7D00093E8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				9327918227E0AB4A00093E8E /* EnterViewController.swift */,
 				9327919227E0AF9C00093E8E /* LogInViewController.swift */,
 				9327919427E0B06700093E8E /* SignUpViewController.swift */,
 				9327919A27E21F6D00093E8E /* HomeTableViewController.swift */,
-				9327918427E0AB4A00093E8E /* Main.storyboard */,
-				9327919C27E2521200093E8E /* ItemTableViewCell.swift */,
-				9327918727E0AB4E00093E8E /* Assets.xcassets */,
-				9327918927E0AB4E00093E8E /* LaunchScreen.storyboard */,
-				9327918C27E0AB4E00093E8E /* Info.plist */,
 			);
-			path = Swap;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		932791A127E27E8E00093E8E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9327919E27E27A3600093E8E /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		932791A227E27E9500093E8E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9327919C27E2521200093E8E /* ItemTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		932791A327E27EA600093E8E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9327918427E0AB4A00093E8E /* Main.storyboard */,
+				9327918927E0AB4E00093E8E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9327919F27E27A3600093E8E /* Item.swift in Sources */,
 				9327919B27E21F6D00093E8E /* HomeTableViewController.swift in Sources */,
 				9327919327E0AF9C00093E8E /* LogInViewController.swift in Sources */,
 				9327918327E0AB4A00093E8E /* EnterViewController.swift in Sources */,
