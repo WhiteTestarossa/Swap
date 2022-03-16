@@ -16,6 +16,7 @@
 		9327919327E0AF9C00093E8E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919227E0AF9C00093E8E /* LogInViewController.swift */; };
 		9327919527E0B06700093E8E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919427E0B06700093E8E /* SignUpViewController.swift */; };
 		9327919B27E21F6D00093E8E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919A27E21F6D00093E8E /* HomeTableViewController.swift */; };
+		9327919D27E2521200093E8E /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327919C27E2521200093E8E /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9327919227E0AF9C00093E8E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		9327919427E0B06700093E8E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9327919A27E21F6D00093E8E /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		9327919C27E2521200093E8E /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9327919427E0B06700093E8E /* SignUpViewController.swift */,
 				9327919A27E21F6D00093E8E /* HomeTableViewController.swift */,
 				9327918427E0AB4A00093E8E /* Main.storyboard */,
+				9327919C27E2521200093E8E /* ItemTableViewCell.swift */,
 				9327918727E0AB4E00093E8E /* Assets.xcassets */,
 				9327918927E0AB4E00093E8E /* LaunchScreen.storyboard */,
 				9327918C27E0AB4E00093E8E /* Info.plist */,
@@ -151,6 +154,7 @@
 				9327918327E0AB4A00093E8E /* EnterViewController.swift in Sources */,
 				9327917F27E0AB4A00093E8E /* AppDelegate.swift in Sources */,
 				9327918127E0AB4A00093E8E /* SceneDelegate.swift in Sources */,
+				9327919D27E2521200093E8E /* ItemTableViewCell.swift in Sources */,
 				9327919527E0B06700093E8E /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
