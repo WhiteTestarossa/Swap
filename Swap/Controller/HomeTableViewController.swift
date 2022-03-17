@@ -47,14 +47,29 @@ class HomeTableViewController: UITableViewController {
         applySnapshot()
         
         //For iPad
-        tableView.cellLayoutMarginsFollowReadableWidth = true
-        
+        //tableView.cellLayoutMarginsFollowReadableWidth = true
         
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        self.navigationController?.navigationBar.sizeToFit() //Actually changing Title
+    }
+    
+    //MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetailSegue" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationController = segue.destination as! ItemDetailViewController
+                destinationController.item = items[indexPath.row]
+            }
+        }
+    }
 
-    // MARK:- UITableView Diffable Data Source
+    // MARK: - UITableView Diffable Data Source
     // MARK: Creating object to manage data and provide cells for tableView
     func configureDataSource() -> UITableViewDiffableDataSource<Section, Item> {
         let cellIdentifier = "dataCell"

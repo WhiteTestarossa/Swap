@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		931EAB1B27E3C66D0060B629 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931EAB1A27E3C66D0060B629 /* ItemDetailViewController.swift */; };
 		9327917F27E0AB4A00093E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327917E27E0AB4A00093E8E /* AppDelegate.swift */; };
 		9327918127E0AB4A00093E8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327918027E0AB4A00093E8E /* SceneDelegate.swift */; };
 		9327918327E0AB4A00093E8E /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9327918227E0AB4A00093E8E /* EnterViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		931EAB1A27E3C66D0060B629 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
 		9327917B27E0AB4A00093E8E /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9327917E27E0AB4A00093E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9327918027E0AB4A00093E8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				9327919227E0AF9C00093E8E /* LogInViewController.swift */,
 				9327919427E0B06700093E8E /* SignUpViewController.swift */,
 				9327919A27E21F6D00093E8E /* HomeTableViewController.swift */,
+				931EAB1A27E3C66D0060B629 /* ItemDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				9327919327E0AF9C00093E8E /* LogInViewController.swift in Sources */,
 				9327918327E0AB4A00093E8E /* EnterViewController.swift in Sources */,
 				9327917F27E0AB4A00093E8E /* AppDelegate.swift in Sources */,
+				931EAB1B27E3C66D0060B629 /* ItemDetailViewController.swift in Sources */,
 				9327918127E0AB4A00093E8E /* SceneDelegate.swift in Sources */,
 				9327919D27E2521200093E8E /* ItemTableViewCell.swift in Sources */,
 				9327919527E0B06700093E8E /* SignUpViewController.swift in Sources */,
