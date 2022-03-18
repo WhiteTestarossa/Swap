@@ -55,8 +55,10 @@ class HomeTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.navigationController?.navigationBar.sizeToFit() //Actually changing Title
+        
     }
     
     //MARK: - Navigation
@@ -67,6 +69,10 @@ class HomeTableViewController: UITableViewController {
                 destinationController.item = items[indexPath.row]
             }
         }
+    }
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        dismiss(animated: true, completion: nil)
     }
 
     // MARK: - UITableView Diffable Data Source

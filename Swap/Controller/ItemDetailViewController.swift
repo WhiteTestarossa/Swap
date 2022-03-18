@@ -16,10 +16,20 @@ class ItemDetailViewController: UIViewController {
     
     var item: Item?
     
+    //MARK: - View Controller Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         setupValues()
+     
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
+        //MARK: Title
+        self.navigationItem.largeTitleDisplayMode = .never
+        self.navigationController?.navigationBar.tintColor = .black
+        self.navigationItem.title = item?.name
     }
     
     //MARK: - Assign passed data
